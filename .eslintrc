@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "airbnb/hooks","airbnb-typescript"],
+
+
+  "rules": {
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+
+  },
+
+
+   "parserOptions": {
+     "project": "./tsconfig.json"
+   }
+}
