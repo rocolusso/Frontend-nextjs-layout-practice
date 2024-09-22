@@ -1,9 +1,15 @@
 {
-  "extends": ["airbnb", "airbnb/hooks","airbnb-typescript"],
+  "extends": ["airbnb", "airbnb/hooks","airbnb-typescript", "prettier"],
 
+  "plugins": ["prettier"],
 
   "rules": {
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "prettier/prettier": ["error"],
+
+
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-unused-vars": ["warn"]
 
   },
 
